@@ -12,7 +12,7 @@ Add to your `pubspec.yaml`:
 dependencies:
   pag_flutter_audio:
     git:
-      url: https://github.com/yourusername/pag_flutter_audio.git
+      url: https://github.com/amit4nebel/pag_flutter_audio.git
       ref: main
 ```
 
