@@ -1,0 +1,23 @@
+name: pag_flutter_audio_example
+description: Demonstrates how to use the pag_flutter_audio plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pag_flutter_audio:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cheers.pag

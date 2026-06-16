@@ -1,0 +1,32 @@
+name: pag_flutter_audio
+description: A Flutter plugin for playing PAG files with audio support.
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pag:
+    git:
+      url: https://github.com/libpag/pag-flutter.git
+      ref: v1.0.9+flutter3.29
+  just_audio: ^0.9.36
+  path_provider: ^2.1.1
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.pag_flutter_audio
+        pluginClass: PagFlutterAudioPlugin
+      ios:
+        pluginClass: PagFlutterAudioPlugin
